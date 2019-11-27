@@ -1,7 +1,7 @@
 def div_4(tahun):
     if tahun%4 == 0:
-        print('TAHUN KABISAT')
+        print('HASIL : TAHUN KABISAT')
     else:
-        print('BUKAN TAHUN KABISAT')
+        print('HASIL : BUKAN TAHUN KABISAT')
 
 div_4(int(input('Input tahun: ')))
